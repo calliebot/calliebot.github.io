@@ -22,5 +22,6 @@ $(document).ready( function () {
             dom: 'Blfrtip'
         });
     });
+    $('footer').append("&nbsp;"+data['last_updated']);
 });
 
