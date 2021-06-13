@@ -1,7 +1,7 @@
 $(document).ready( function () {
     $.getJSON("/data.json", function(data){
         $('#myTable').DataTable({
-            data: data,
+            data: data['data'],
             lengthChange: true,
             lengthMenu: [ [10, 25, 50, -1], [10, 25, 50, 100, "All"] ],
             buttons: [
