@@ -1,1 +1,2 @@
 table.dataTable tbody th, table.dataTable tbody td { text-align: center; }
+table caption { font-size: 2em; color: blue;}
