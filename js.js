@@ -8,7 +8,7 @@ $(document).ready( function () {
                { 
                  extend: 'searchPanes',
                  config: {
-                    columns: [0,9]
+                    columns: [0,9,10]
                 }
                },
                
@@ -31,7 +31,7 @@ $(document).ready( function () {
                {
                  extend: 'searchPanes',
                  config: {
-                    columns: [0,9]
+                    columns: [0,9,10]
                 }
                },
 
@@ -54,7 +54,7 @@ $(document).ready( function () {
                {
                  extend: 'searchPanes',
                  config: {
-                    columns: [0,9]
+                    columns: [0,9,10]
                 }
                },
 
@@ -77,7 +77,7 @@ $(document).ready( function () {
                {
                  extend: 'searchPanes',
                  config: {
-                    columns: [0,9]
+                    columns: [0,9,10]
                 }
                },
 
