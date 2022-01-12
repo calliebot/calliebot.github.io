@@ -25,6 +25,7 @@ $(document).ready( function () {
     });
     $.getJSON("/data_call_etf.json", function(data){
         $('#etfCallTable').DataTable({
+            responsive: true,
             data: data['data'],
             lengthChange: true,
             lengthMenu: [ [10, 25, 50, -1], [10, 25, 50, 100, "All"] ],
@@ -48,6 +49,7 @@ $(document).ready( function () {
     });
     $.getJSON("/data_put.json", function(data){
         $('#putTable').DataTable({
+            responsive: true,
             data: data['data'],
             lengthChange: true,
             lengthMenu: [ [10, 25, 50, -1], [10, 25, 50, 100, "All"] ],
@@ -71,6 +73,7 @@ $(document).ready( function () {
     });
     $.getJSON("/data_put_etf.json", function(data){
         $('#etfPutTable').DataTable({
+            responsive: true,
             data: data['data'],
             lengthChange: true,
             lengthMenu: [ [10, 25, 50, -1], [10, 25, 50, 100, "All"] ],
