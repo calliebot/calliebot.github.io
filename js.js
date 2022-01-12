@@ -1,6 +1,7 @@
 $(document).ready( function () {
     $.getJSON("/data_call.json", function(data){
         $('#callTable').DataTable({
+            responsive: true,
             data: data['data'],
             lengthChange: true,
             lengthMenu: [ [10, 25, 50, -1], [10, 25, 50, 100, "All"] ],
